@@ -85,13 +85,14 @@ class _OnboadingState extends State<Onboarding> {
   title: Row(
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
     children: [
-      
+    
       Row(
         children: [
-          Image.asset("assets/images/barbr6.png", height: 30),
+        //Image.asset("assets/images/barbr6.png", height: 30),
+        Image.asset("assets/images/logo12.png", height: 30),
           SizedBox(width: 5.0),
           Text(
-            "CutConnect",
+            "Groomify",
             style: TextStyle(
               fontSize: 20.0,
               color: Colors.white,
